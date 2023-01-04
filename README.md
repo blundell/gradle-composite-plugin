@@ -5,6 +5,5 @@ The code is split across two branches:
 
 - Applying a 3rd party plugin directly 
   - https://github.com/blundell/gradle-composite-plugin/tree/affected-module-detector-applied-as-normal
-  - 
 - Wrapping a 3rd party plugin in a composite plugin to include
   - https://github.com/blundell/gradle-composite-plugin/tree/affected-module-detector-applied-as-composite
