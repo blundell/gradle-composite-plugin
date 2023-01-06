@@ -5,6 +5,8 @@ plugins {
 }
 
 dependencies {
+    implementation("com.dropbox.affectedmoduledetector:affectedmoduledetector:0.2.0")
+
     testImplementation("junit:junit:4.13.2")
 }
 
