@@ -4,7 +4,6 @@ pluginManagement {
         google()
         mavenCentral()
     }
-    includeBuild("amd-plugin")
 }
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
@@ -13,6 +12,7 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "CompositePlugin"
-include ':app'
-include ':mylibrary'
+
+rootProject.name = "blundell-amd-plugin"
+
+include(":plugin")
