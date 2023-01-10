@@ -1,6 +1,8 @@
 A repository showing how you can wrap other plugins and apply them as a plugin to your build. This
 uses a [composite build](https://docs.gradle.org/current/userguide/composite_builds.html).
 
+[Blog post write up is here.](https://blog.blundellapps.co.uk/applying-a-3rd-party-gradle-plugin-as-a-composite-plugin/)
+
 The code is split across two branches:
 
 1) Applying a 3rd party plugin directly
